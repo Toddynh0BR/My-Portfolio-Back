@@ -29,7 +29,7 @@ app.post('/send', async (req, res) => {
         from: process.env.EMAIL_USER, 
         to: 'galaxyplay41@gmail.com', 
         replyTo: email,
-        subject: 'Teste de E-mail',
+        subject: 'Email para mim!',
         text: `Usuário com nome: ${name}, email: ${email} e mensagem: ${text}`,
     };
 

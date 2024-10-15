@@ -3,7 +3,8 @@ module.exports = {
     {
       name: 'my-app',
       script: './server.js',
-      instances: "max",
+      instances: 1,  
+      exec_mode: 'fork',  
       env: {
         NODE_ENV: 'development',
       },
